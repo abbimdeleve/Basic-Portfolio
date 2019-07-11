@@ -68,3 +68,12 @@ p {
     padding: 0;
     box-sizing: border-box;
 }
+input, textarea {
+    width: 75%;
+}
+.grid {
+    background-color: white;
+}
+.port {
+    background-color: white;
+}
