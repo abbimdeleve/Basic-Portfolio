@@ -8,6 +8,7 @@ header {
     height: 100px;
     margin: 0;
     background-color: white;
+    position: relative;
 }
 .name {
     float: left;
@@ -46,10 +47,16 @@ ul {
     overflow: hidden;
 }
 li  {
-    float: right;
     list-style-type: none;
     margin: 0;
     padding: 0; 
+}
+nav ul li {
+    display: inline-block
+}
+nav ul {
+    position: absolute;
+    right: 0;
 }
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -57,7 +64,6 @@ p {
 }
 .container {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    float: left;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
