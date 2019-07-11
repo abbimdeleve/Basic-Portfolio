@@ -1,14 +1,17 @@
 
-
+body {
+    background-image: url(../images/papyrus.png)
+}
 header {
 
     width: 960px;
-    height: 50px;
-    margin: 0 auto;
+    height: 100px;
+    margin: 0;
+    background-color: white;
 }
 .name {
     float: left;
-    background-color: teal;
+    background-color: #4aaaa5;
     width: 250px;
     height: 50px;
     color: white;
@@ -16,10 +19,19 @@ header {
     text-align: center;
     text-anchor: middle;
     padding-top: 10px;
+    margin-left: 1em;
     
 }
 section {
     clear: both;
+    background-color: white;
+    margin-left: 4em;
+    margin-right: 6em;
+    
+}
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 a {
     color: #777777;
