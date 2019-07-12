@@ -77,3 +77,21 @@ input, textarea {
 .port {
     background-color: white;
 }
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+.grid-item {
+    margin: 8px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.season3 {
+    color: #777777;
+    background-color: #4aaaa5;
+    position: absolute;
+    z-index: 1;
+
+}
